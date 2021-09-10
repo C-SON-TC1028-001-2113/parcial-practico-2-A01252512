@@ -1,10 +1,9 @@
 def cuadrado_mayor(n):
     i = 0
-    mayor = False
-    while mayor == False:
+
+    while True:
         if i**2 > n:
             return i
-            mayor == True
         else:
             i += 1
 
